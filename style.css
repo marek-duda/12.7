@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto|Oswald|Lato');
+
+* {
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: #02132d;
+}
+
+h1 {
+    color: #ffb919;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.board {
+   text-align: center;
+}
+
+.create-column {
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #ffb919;
+    font-weight: 900;
+}
+
+.column-container {
+    width: 1200px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 350px;
+    background-color: #102042;
+    margin: 10px;
+    padding: 10px;
+}
+
+.column-title {
+    color: #ffb919;
+    float: left;
+    width: 135px;
+}
+
+button {
+    background-color: #ffb919;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+    outline: none;
+}
+
+.btn-delete {
+    background-color: black;
+}
+
+.card-description {
+    float: left;
+    color: #ffb919;
+    font-size: 1.1em;
+    width: 200px;
+}
+
+.card {
+    list-style-type: none;
+}
+
+.card-placeholder {
+    border: 2px solid #ffb919 ;
+    height: 40px;
+    border-radius: 5px;
+    list-style-type: none;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
